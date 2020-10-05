@@ -1,0 +1,13 @@
+{
+    "api_real_interfaces":"https://192.168.4.164/api/config/interfaces?offset=0&limit=20&ordering=enable&mode=interface&real=true",
+    "api_route":"https://192.168.4.164/api/config/static_routes?offset=0&limit=10&ordering=name&real=true",
+    "api_vlan":"https://192.168.4.164/api/config/interfaces?offset=0&limit=10&ordering=name&mode=vlan",
+    "api_addresses":"https://192.168.4.164/api/entity/addresses?offset=0&limit=10&ordering=name",
+    "api_services":"https://192.168.4.164/api/entity/services?offset=0&limit=9999",
+    "api_Token":"https://192.168.4.164/api-token-auth/",
+    "api_backup":"https://192.168.4.164/api/config/backups?offset=0&limit=10&ordering=datetime",
+    "api_ntp":"https://192.168.4.164/api/config/ntp",
+    "api_update_manager":"https://192.168.4.164/api/config/update_manager",
+    "api_site_to_site":"https://192.168.4.164/api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true",
+    "api_firewall_input":"https://192.168.4.164/api/input-firewall/inputpolicies?offset=0&limit=10&ordering=name&real=true"
+}
