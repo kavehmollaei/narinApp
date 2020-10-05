@@ -1,0 +1,1 @@
+curl --insecure --request GET -H "Accep: application/json" -H "Content-type: application/json" -H "Authorization:Token 0c0b14aba2bcc6ce2e903f1f8419e3c06ad85c4d" --data '{"username":"admin","password":"admin"}' https://192.168.4.164/api/config/interfaces?offset=0&limit=20&ordering=enable&mode=interface&real=true | jq
