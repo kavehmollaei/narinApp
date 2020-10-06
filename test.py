@@ -1,5 +1,4 @@
 import os
-
 from logging.handlers import RotatingFileHandler
 import json,time,platform,subprocess,logging,requests,urllib3
 from typing import Counter
@@ -14,8 +13,10 @@ logging.basicConfig(format='%(asctime)s:>>>>%(message)s',level=logging.DEBUG ,fi
 headers={}
 headers['content-type'] = 'application/json'
 headers['Accept'] = 'application/json'
+with open('urls.json') as data:
+    api_urls = json.load(data)
 
-
+out = open('file.txt', 'w')
 
 login_data = {'username': 'admin', 'password': 'admin'}
 
@@ -38,9 +39,76 @@ if response_restart_tunnel.ok:
 
 
 
+def Get_Route(url_route, input_timeout=10):
+    try:
+        response_show_routeing_table = requests.get(url_route, headers={
+                                                    'Authorization': 'Token '+token_json['token']}, verify=False, timeout=input_timeout)
+        result_route_json = response_show_routeing_table.json()
+        # print(result_route_json.get('count'))
+        logging.info('Get {} Routes'.format(result_route_json.get('count')))
+        out.write('\n')
+        out.write(
+            'Count of routes:--->>> {}'.format(str(result_route_json.get('count'))))
+        print('Count of routes:--->>> {}'.format(result_route_json.get('count')))
 
+        route_count = int(result_route_json['count'])
+        out.write('\n')
+        # print(result_route_json['results'])
+        for i in range(0, route_count):
+            # print(result_route_json['results'][i]['interface']['mac'])
+            out.write('Name : {}'.format(
+                result_route_json['results'][i]['name']))
+            out.write('\n')
+            # out.write('Name : {}'.format(result_route_json['results'][i]['name']))
+            out.write('\n')
+            print('Name : {}'.format(result_route_json['results'][i]['name']))
+            out.write('Destination_Ip : {}'.format(
+                result_route_json['results'][i]['destination_ip']))
+            out.write('\n')
+            print('Destination_Ip : {}'.format(
+                result_route_json['results'][i]['destination_ip']))
+
+            out.write('Destination_Mask: {}'.format(
+                result_route_json['results'][i]['destination_mask']))
+            out.write('\n')
+            print('Destination_Mask: {}'.format(
+                result_route_json['results'][i]['destination_mask']))
+            out.write('Gateway: {}'.format(
+                result_route_json['results'][i]['gateway']))
+            out.write('\n')
+            print('Gateway: {}'.format(
+                result_route_json['results'][i]['gateway']))
+            # print(result_route_json['results'][i]['interface']['name'])
+            if result_route_json['results'][i]['interface'] is not None:
+                out.write('Name of Interface: {}'.format(
+                    result_route_json['results'][i]['interface']['name']))
+                print('Name of Interface: {}'.format(
+                    result_route_json['results'][i]['interface']['name']))
+            else:
+                out.write('\n')
+                out.write('Interface is Null')
+                out.write('\n')
+                print('Interface is Null')
+            print('Description: {}'.format(
+                result_route_json['results'][i]['description']))
+            print(
+                '========================================================================================')
+        return True
+    except ConnectionError as error:
+        print('Connection Not Found---->>>> {}'.format(error))
+    return False
+
+
+url_route = api_urls['api_route']
+if not Get_Route(url_route):
+    Get_Route(url_route, 20)
+
+
+
+
+""" 
 ##  Get Firewall input
-'''
+
 url_firewal_input = 'https://192.168.4.164/api/input-firewall/inputpolicies?offset=0&limit=10&ordering=name&real=true'
 
 response_firewall_input = requests.get(url_firewal_input,headers={'Authorization': 'Token '+token_json['token']},verify=False,timeout=20)
@@ -207,7 +275,8 @@ print(myfunc(5,3,4,12,4,9))
 
 
 def append_new_line(file_name, text_to_append):
-    """Append given text as a new line at the end of file"""
+    Append given text as a new line at the end of file
+
     # Open the file in append & read mode ('a+')
     with open(file_name, "a+") as file_object:
         # Move read cursor to the start of file.
@@ -220,4 +289,4 @@ def append_new_line(file_name, text_to_append):
         file_object.write(text_to_append)
 
 append_new_line('sample3.txt', 'This is f')       
-'''
+ """
