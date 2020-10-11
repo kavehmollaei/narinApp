@@ -4680,3 +4680,1406 @@
 2020-10-06 16:09:56,034:>>>>Starting new HTTPS connection (1): 192.168.4.164
 2020-10-06 16:09:56,094:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
 2020-10-06 16:09:56,096:>>>>Get 1 Routes
+2020-10-07 08:42:39,267:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:39,327:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 08:42:39,366:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:39,664:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=20&ordering=enable&mode=interface&real=true HTTP/1.1" 200 None
+2020-10-07 08:42:39,672:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:39,733:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 08:42:39,734:>>>>Get 1 Routes
+2020-10-07 08:42:39,737:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:39,827:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=10&ordering=name&mode=vlan HTTP/1.1" 200 None
+2020-10-07 08:42:39,828:>>>>Get 1 Vlans
+2020-10-07 08:42:39,831:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:39,894:>>>>https://192.168.4.164:443 "GET /api/entity/addresses?offset=0&limit=10&ordering=name HTTP/1.1" 200 None
+2020-10-07 08:42:39,895:>>>>Connection Established
+2020-10-07 08:42:39,897:>>>>Getting count
+2020-10-07 08:42:41,899:>>>>Count of objects:7
+2020-10-07 08:42:41,900:>>>>Gathering data done
+2020-10-07 08:42:41,904:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:41,993:>>>>https://192.168.4.164:443 "GET /api/entity/services?offset=0&limit=9999 HTTP/1.1" 200 None
+2020-10-07 08:42:41,999:>>>>Gathering services
+2020-10-07 08:42:41,999:>>>>Printing Results
+2020-10-07 08:42:42,001:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:42,065:>>>>https://192.168.4.164:443 "GET /api/config/backups?offset=0&limit=10&ordering=datetime HTTP/1.1" 200 None
+2020-10-07 08:42:42,067:>>>>Printing Backup info Results...
+2020-10-07 08:42:42,069:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:42,124:>>>>https://192.168.4.164:443 "GET /api/config/ntp HTTP/1.1" 200 156
+2020-10-07 08:42:42,125:>>>>Gettig ntp objects...
+2020-10-07 08:42:46,137:>>>>Getting Results...
+2020-10-07 08:42:46,143:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:46,181:>>>>https://192.168.4.164:443 "GET /api/config/update_manager HTTP/1.1" 200 209
+2020-10-07 08:42:46,184:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:46,265:>>>>https://192.168.4.164:443 "GET /api/input-firewall/inputpolicies?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 08:42:46,271:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:42:46,437:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 08:44:40,126:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:44:40,174:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 08:44:40,178:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:44:45,311:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 08:44:45,317:>>>>Starting new HTTPS connection (1): 192.168.4.164
+2020-10-07 08:44:45,389:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 08:44:45,391:>>>>Get 1 Routes
+2020-10-07 09:16:24,713:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:16:24,834:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:16:24,837:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:16:30,011:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:17:16,838:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:17:16,892:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:17:16,895:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:17:22,013:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:17:43,160:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:17:43,205:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:17:43,209:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:17:48,313:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:17:48,320:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:17:48,388:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:17:48,390:>>>>Get 1 Routes
+2020-10-07 09:18:13,298:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:18:13,342:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:18:13,348:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:18:18,486:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:18:18,494:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:18:18,590:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:18:18,592:>>>>Get 1 Routes
+2020-10-07 09:20:43,698:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:20:43,749:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:20:43,754:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:20:48,882:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:20:48,889:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:20:48,972:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:20:48,975:>>>>Get 1 Routes
+2020-10-07 09:25:29,791:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:25:29,844:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:25:29,851:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:25:35,006:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:25:35,011:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:25:35,110:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:25:35,112:>>>>Get 1 Routes
+2020-10-07 09:25:49,738:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:25:49,783:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:25:49,788:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:25:54,903:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:25:54,907:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:25:54,992:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:25:54,994:>>>>Get 1 Routes
+2020-10-07 09:26:14,480:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:26:14,531:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:26:14,536:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:26:19,662:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:26:19,669:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:26:19,732:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:26:19,734:>>>>Get 1 Routes
+2020-10-07 09:27:52,322:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:27:52,373:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:27:52,378:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:27:57,522:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:27:57,529:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:28:07,816:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:28:20,896:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:28:20,903:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:28:26,203:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:28:26,211:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:29:24,225:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:29:24,286:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:29:24,293:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:29:29,438:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:29:29,446:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:29:29,641:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:29:29,643:>>>>Get 1 Routes
+2020-10-07 09:33:23,083:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:33:23,135:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:33:23,141:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:33:28,263:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:33:28,271:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:33:28,333:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:33:28,335:>>>>Get 1 Routes
+2020-10-07 09:34:15,170:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:34:15,223:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:34:15,229:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:34:20,349:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:34:20,357:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:34:20,423:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:34:20,425:>>>>Get 1 Routes
+2020-10-07 09:36:13,692:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:36:13,738:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:36:13,745:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:36:18,873:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:36:37,757:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:36:37,810:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:36:37,815:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:36:42,974:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:36:42,982:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:36:43,037:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:36:43,038:>>>>Get 1 Routes
+2020-10-07 09:42:26,728:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:42:26,809:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 09:42:26,811:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:42:31,948:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 09:42:31,955:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 09:42:32,045:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 09:42:32,047:>>>>Get 2 Routes
+2020-10-07 10:46:46,301:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:46:46,364:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 10:46:46,367:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:46:51,528:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 10:46:51,535:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:46:51,599:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 10:46:51,602:>>>>Get 2 Routes
+2020-10-07 10:47:12,409:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:47:12,459:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 10:47:12,467:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:47:17,583:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 10:47:17,588:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:47:17,706:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 10:47:17,708:>>>>Get 2 Routes
+2020-10-07 10:51:13,298:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:51:13,347:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 10:51:13,350:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:51:18,466:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 10:51:18,471:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:51:18,582:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 10:51:18,584:>>>>Get 2 Routes
+2020-10-07 10:59:58,784:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 10:59:58,838:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 10:59:58,845:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:00:03,982:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 11:00:03,988:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:00:04,077:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:00:04,080:>>>>Get 2 Routes
+2020-10-07 11:37:24,122:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:24,169:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 11:37:24,213:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:24,427:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=20&ordering=enable&mode=interface&real=true HTTP/1.1" 200 None
+2020-10-07 11:37:24,432:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:24,508:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:37:24,510:>>>>Get 2 Routes
+2020-10-07 11:37:24,515:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:24,679:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=10&ordering=name&mode=vlan HTTP/1.1" 200 None
+2020-10-07 11:37:24,681:>>>>Get 1 Vlans
+2020-10-07 11:37:24,686:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:24,819:>>>>https://192.168.4.164:443 "GET /api/entity/addresses?offset=0&limit=10&ordering=name HTTP/1.1" 200 None
+2020-10-07 11:37:24,821:>>>>Connection Established
+2020-10-07 11:37:24,822:>>>>Getting count
+2020-10-07 11:37:26,824:>>>>Count of objects:7
+2020-10-07 11:37:26,825:>>>>Gathering data done
+2020-10-07 11:37:26,831:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:26,871:>>>>https://192.168.4.164:443 "GET /api/entity/services?offset=0&limit=9999 HTTP/1.1" 200 None
+2020-10-07 11:37:26,872:>>>>Gathering services
+2020-10-07 11:37:26,873:>>>>Printing Results
+2020-10-07 11:37:26,876:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:26,944:>>>>https://192.168.4.164:443 "GET /api/config/backups?offset=0&limit=10&ordering=datetime HTTP/1.1" 200 None
+2020-10-07 11:37:26,946:>>>>Printing Backup info Results...
+2020-10-07 11:37:26,950:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:27,009:>>>>https://192.168.4.164:443 "GET /api/config/ntp HTTP/1.1" 200 156
+2020-10-07 11:37:27,010:>>>>Gettig ntp objects...
+2020-10-07 11:37:31,048:>>>>Getting Results...
+2020-10-07 11:37:31,051:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:31,121:>>>>https://192.168.4.164:443 "GET /api/config/update_manager HTTP/1.1" 200 209
+2020-10-07 11:37:31,124:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:31,214:>>>>https://192.168.4.164:443 "GET /api/input-firewall/inputpolicies?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:37:31,221:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:37:31,431:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:04,123:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:04,169:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 11:38:04,207:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:04,526:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=20&ordering=enable&mode=interface&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:04,533:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:04,819:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:04,821:>>>>Get 2 Routes
+2020-10-07 11:38:04,825:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:04,940:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=10&ordering=name&mode=vlan HTTP/1.1" 200 None
+2020-10-07 11:38:04,942:>>>>Get 1 Vlans
+2020-10-07 11:38:04,947:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:05,045:>>>>https://192.168.4.164:443 "GET /api/entity/addresses?offset=0&limit=10&ordering=name HTTP/1.1" 200 None
+2020-10-07 11:38:05,046:>>>>Connection Established
+2020-10-07 11:38:05,046:>>>>Getting count
+2020-10-07 11:38:07,046:>>>>Count of objects:7
+2020-10-07 11:38:07,047:>>>>Gathering data done
+2020-10-07 11:38:07,051:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:07,129:>>>>https://192.168.4.164:443 "GET /api/entity/services?offset=0&limit=9999 HTTP/1.1" 200 None
+2020-10-07 11:38:07,131:>>>>Gathering services
+2020-10-07 11:38:07,131:>>>>Printing Results
+2020-10-07 11:38:07,136:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:07,214:>>>>https://192.168.4.164:443 "GET /api/config/backups?offset=0&limit=10&ordering=datetime HTTP/1.1" 200 None
+2020-10-07 11:38:07,216:>>>>Printing Backup info Results...
+2020-10-07 11:38:07,220:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:07,264:>>>>https://192.168.4.164:443 "GET /api/config/ntp HTTP/1.1" 200 156
+2020-10-07 11:38:07,265:>>>>Gettig ntp objects...
+2020-10-07 11:38:11,296:>>>>Getting Results...
+2020-10-07 11:38:11,304:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:11,342:>>>>https://192.168.4.164:443 "GET /api/config/update_manager HTTP/1.1" 200 209
+2020-10-07 11:38:11,346:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:11,678:>>>>https://192.168.4.164:443 "GET /api/input-firewall/inputpolicies?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:11,689:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:11,862:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:34,348:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:34,394:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 11:38:34,440:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:34,733:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=20&ordering=enable&mode=interface&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:34,736:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:34,954:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:34,956:>>>>Get 2 Routes
+2020-10-07 11:38:34,960:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:35,089:>>>>https://192.168.4.164:443 "GET /api/config/interfaces?offset=0&limit=10&ordering=name&mode=vlan HTTP/1.1" 200 None
+2020-10-07 11:38:35,090:>>>>Get 1 Vlans
+2020-10-07 11:38:35,093:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:35,203:>>>>https://192.168.4.164:443 "GET /api/entity/addresses?offset=0&limit=10&ordering=name HTTP/1.1" 200 None
+2020-10-07 11:38:35,205:>>>>Connection Established
+2020-10-07 11:38:35,205:>>>>Getting count
+2020-10-07 11:38:37,207:>>>>Count of objects:7
+2020-10-07 11:38:37,207:>>>>Gathering data done
+2020-10-07 11:38:37,213:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:37,261:>>>>https://192.168.4.164:443 "GET /api/entity/services?offset=0&limit=9999 HTTP/1.1" 200 None
+2020-10-07 11:38:37,263:>>>>Gathering services
+2020-10-07 11:38:37,264:>>>>Printing Results
+2020-10-07 11:38:37,268:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:37,349:>>>>https://192.168.4.164:443 "GET /api/config/backups?offset=0&limit=10&ordering=datetime HTTP/1.1" 200 None
+2020-10-07 11:38:37,351:>>>>Printing Backup info Results...
+2020-10-07 11:38:37,354:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:37,391:>>>>https://192.168.4.164:443 "GET /api/config/ntp HTTP/1.1" 200 156
+2020-10-07 11:38:37,392:>>>>Gettig ntp objects...
+2020-10-07 11:38:41,410:>>>>Getting Results...
+2020-10-07 11:38:41,419:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:41,462:>>>>https://192.168.4.164:443 "GET /api/config/update_manager HTTP/1.1" 200 209
+2020-10-07 11:38:41,467:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:41,691:>>>>https://192.168.4.164:443 "GET /api/input-firewall/inputpolicies?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:38:41,699:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:38:41,883:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:44:42,530:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:44:42,582:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 11:44:42,588:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:44:47,716:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 11:44:47,721:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:44:47,796:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 11:44:47,798:>>>>Get 2 Routes
+2020-10-07 11:44:47,805:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 11:44:47,952:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:01:11,138:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:02:25,449:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:07:18,458:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:07:18,528:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:07:18,534:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:07:23,684:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:07:23,687:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:07:23,804:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:07:23,805:>>>>Get 2 Routes
+2020-10-07 15:07:23,810:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:07:23,978:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:15:16,803:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:15:16,858:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:15:16,862:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:15:21,982:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:15:21,988:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:15:22,057:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:15:22,058:>>>>Get 2 Routes
+2020-10-07 15:15:22,061:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:15:22,218:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:15:22,226:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:15:22,400:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:16:13,673:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:16:13,722:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:16:13,730:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:16:18,850:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:16:18,854:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:16:18,947:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:16:18,949:>>>>Get 2 Routes
+2020-10-07 15:16:18,955:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:16:19,151:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:16:19,155:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:16:19,340:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:19:39,980:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:19:40,028:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:19:40,032:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:19:45,147:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:19:45,154:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:19:45,240:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:19:45,243:>>>>Get 2 Routes
+2020-10-07 15:19:45,253:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:19:45,409:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:19:45,415:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:19:45,539:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:20:12,654:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:20:12,701:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:20:12,707:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:20:17,850:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:20:17,856:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:20:17,922:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:20:17,923:>>>>Get 2 Routes
+2020-10-07 15:20:17,929:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:20:18,678:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:20:18,685:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:20:18,869:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:21:07,442:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:21:07,488:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:21:07,494:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:21:12,594:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:21:12,601:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:21:12,668:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:21:12,670:>>>>Get 2 Routes
+2020-10-07 15:21:12,675:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:21:12,871:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:21:12,879:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:21:13,006:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:22:51,436:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:22:51,505:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:22:51,508:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:22:56,681:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:22:56,688:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:22:56,766:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:22:56,768:>>>>Get 2 Routes
+2020-10-07 15:22:56,773:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:22:56,891:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:24:17,892:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:17,944:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:24:17,949:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:23,133:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:24:23,136:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:23,224:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:24:23,226:>>>>Get 2 Routes
+2020-10-07 15:24:23,230:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:23,381:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:24:23,385:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:23,540:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:24:49,253:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:49,433:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:24:49,439:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:54,650:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:24:54,656:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:54,756:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:24:54,758:>>>>Get 2 Routes
+2020-10-07 15:24:54,764:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:24:55,327:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:25:35,886:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:25:35,933:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:25:35,938:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:25:41,087:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:25:41,095:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:25:41,170:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:25:41,171:>>>>Get 2 Routes
+2020-10-07 15:25:41,178:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:25:41,328:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:26:15,340:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:26:15,407:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:26:15,410:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:26:20,538:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:26:20,546:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:26:20,615:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:26:20,617:>>>>Get 2 Routes
+2020-10-07 15:26:20,624:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:26:20,828:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:27:17,189:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:27:17,239:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:27:17,245:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:27:22,390:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:27:22,397:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:27:22,483:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:27:22,486:>>>>Get 2 Routes
+2020-10-07 15:27:22,494:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:27:22,645:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:28:20,989:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:21,039:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:28:21,046:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:26,150:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:28:26,154:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:26,222:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:28:26,224:>>>>Get 2 Routes
+2020-10-07 15:28:26,230:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:26,368:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:28:26,374:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:26,503:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:28:46,921:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:46,967:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:28:46,973:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:52,090:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:28:52,095:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:52,174:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:28:52,177:>>>>Get 2 Routes
+2020-10-07 15:28:52,183:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:52,356:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:28:52,363:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:28:52,497:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:29:37,072:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:29:37,117:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:29:37,123:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:29:42,248:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:29:42,251:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:29:42,336:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:29:42,337:>>>>Get 2 Routes
+2020-10-07 15:29:42,342:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:29:42,601:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:31:28,286:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:31:28,342:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:31:28,348:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:31:33,451:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:31:33,461:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:31:33,559:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:31:33,562:>>>>Get 2 Routes
+2020-10-07 15:31:33,568:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:31:33,744:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:32:07,145:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:07,192:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:32:07,197:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:12,299:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:32:12,304:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:12,382:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:32:12,384:>>>>Get 2 Routes
+2020-10-07 15:32:12,390:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:12,547:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:32:48,888:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:48,946:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:32:48,951:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:54,061:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:32:54,067:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:54,142:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:32:54,144:>>>>Get 2 Routes
+2020-10-07 15:32:54,149:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:54,309:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:32:54,316:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:32:54,460:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:33:54,590:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:33:54,636:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:33:54,645:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:33:59,799:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:33:59,808:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:33:59,882:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:33:59,884:>>>>Get 2 Routes
+2020-10-07 15:33:59,888:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:34:00,026:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:35:23,784:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:35:23,830:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:35:23,837:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:35:28,966:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:35:28,973:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:35:29,032:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:35:29,033:>>>>Get 2 Routes
+2020-10-07 15:35:29,036:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:35:29,167:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:35:29,174:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:35:29,307:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:36:14,092:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:36:14,140:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:36:14,147:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:36:19,317:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:36:19,324:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:36:19,398:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:36:19,400:>>>>Get 2 Routes
+2020-10-07 15:36:19,407:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:36:19,555:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:36:19,564:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:36:19,767:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:38:23,447:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:38:23,497:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:38:23,502:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:38:28,634:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:38:28,642:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:38:28,717:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:38:28,719:>>>>Get 2 Routes
+2020-10-07 15:38:28,725:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:38:28,873:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:40:09,348:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:40:09,408:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:40:09,413:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:40:14,564:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:40:14,570:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:40:14,646:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:40:14,647:>>>>Get 2 Routes
+2020-10-07 15:40:14,654:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:40:14,821:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:41:18,152:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:18,202:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:41:18,209:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:23,451:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:41:23,460:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:23,538:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:41:23,541:>>>>Get 2 Routes
+2020-10-07 15:41:23,547:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:24,019:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:41:24,218:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:24,265:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:41:24,272:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:29,442:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:41:29,447:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:30,945:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:41:30,947:>>>>Get 2 Routes
+2020-10-07 15:41:30,956:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:31,120:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:41:37,216:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:37,263:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:41:37,268:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:42,395:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:41:42,402:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:42,469:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:41:42,470:>>>>Get 2 Routes
+2020-10-07 15:41:42,475:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:41:42,649:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:42:04,162:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:04,212:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:42:04,220:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:09,338:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:42:09,346:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:09,408:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:42:09,410:>>>>Get 2 Routes
+2020-10-07 15:42:09,416:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:09,599:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:42:45,349:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:45,396:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:42:45,404:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:50,546:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:42:50,553:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:50,693:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:42:50,695:>>>>Get 2 Routes
+2020-10-07 15:42:50,700:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:51,018:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:42:51,025:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:42:51,161:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:43:24,006:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:43:24,052:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:43:24,056:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:43:29,192:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:43:29,198:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:43:29,290:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:43:29,292:>>>>Get 2 Routes
+2020-10-07 15:43:29,299:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:43:29,471:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:43:29,476:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:43:29,627:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:44:13,504:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:13,556:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:44:13,561:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:18,724:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:44:18,732:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:18,793:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:44:18,794:>>>>Get 2 Routes
+2020-10-07 15:44:18,799:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:18,925:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:44:50,170:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:50,229:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:44:50,234:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:55,374:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:44:55,380:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:55,463:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:44:55,466:>>>>Get 2 Routes
+2020-10-07 15:44:55,472:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:44:55,782:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:45:22,046:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:45:22,098:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:45:22,105:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:45:27,250:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:45:27,258:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:45:27,334:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:45:27,336:>>>>Get 2 Routes
+2020-10-07 15:45:27,342:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:45:27,674:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:47:58,047:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:47:58,096:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:47:58,103:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:48:03,253:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:48:03,261:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:48:03,359:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:48:03,361:>>>>Get 2 Routes
+2020-10-07 15:48:03,367:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:48:03,563:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:49:07,121:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:49:07,170:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:49:07,176:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:49:12,280:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:49:12,287:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:49:12,362:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:49:12,365:>>>>Get 2 Routes
+2020-10-07 15:49:12,371:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:49:12,538:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:50:32,563:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:50:32,613:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-07 15:50:32,620:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:50:37,747:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-07 15:50:37,756:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:50:37,832:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-07 15:50:37,834:>>>>Get 2 Routes
+2020-10-07 15:50:37,842:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-07 15:50:37,988:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:21:56,796:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:21:57,157:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:21:57,162:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:02,656:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:22:02,661:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:02,965:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:22:02,968:>>>>Get 2 Routes
+2020-10-10 19:22:03,084:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:03,594:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:22:37,093:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:37,359:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:22:37,364:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:42,687:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:22:42,691:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:42,980:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:22:42,981:>>>>Get 2 Routes
+2020-10-10 19:22:42,996:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:22:44,383:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:28:58,648:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:29:01,192:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:29:01,198:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:29:06,550:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:29:06,553:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:29:06,866:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:29:06,868:>>>>Get 2 Routes
+2020-10-10 19:29:06,874:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:29:07,236:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:29:07,239:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:29:07,611:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:31:05,797:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:31:06,066:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:31:06,072:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:31:11,499:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:31:11,504:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:31:11,813:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:31:11,816:>>>>Get 2 Routes
+2020-10-10 19:31:11,826:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:31:12,225:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:31:12,232:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:31:12,597:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:31:58,398:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:31:58,672:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:31:58,676:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:32:04,009:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:32:04,015:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:32:04,352:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:32:04,355:>>>>Get 2 Routes
+2020-10-10 19:32:04,362:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:32:04,761:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:32:04,770:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:32:05,146:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:34:27,898:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:34:28,173:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:34:28,176:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:34:33,547:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:34:33,557:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:34:33,884:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:34:33,885:>>>>Get 2 Routes
+2020-10-10 19:34:33,891:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:34:34,379:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:34:34,382:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:34:34,752:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:35:11,714:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:35:11,975:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:35:11,978:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:35:17,347:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:35:17,356:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:35:17,777:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:35:17,778:>>>>Get 2 Routes
+2020-10-10 19:35:17,784:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:35:18,147:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:35:18,153:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:35:18,605:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:36:26,017:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:36:26,294:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:36:26,299:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:36:31,674:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:36:31,681:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:36:31,982:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:36:31,985:>>>>Get 2 Routes
+2020-10-10 19:36:31,994:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:36:32,353:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:36:32,363:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:36:32,732:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:38:14,728:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:38:15,009:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:38:15,014:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:38:20,421:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:38:20,426:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:38:20,831:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:38:20,832:>>>>Get 2 Routes
+2020-10-10 19:38:20,838:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:38:21,289:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:38:21,292:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:38:21,692:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:41:02,428:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:41:02,698:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:41:02,702:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:41:08,059:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:41:08,063:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:41:08,344:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:41:08,345:>>>>Get 2 Routes
+2020-10-10 19:41:08,351:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:41:08,714:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:41:08,724:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:41:09,107:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:43:27,861:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:43:28,134:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:43:28,140:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:43:33,559:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:43:33,566:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:43:33,885:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:43:33,886:>>>>Get 2 Routes
+2020-10-10 19:43:33,893:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:43:34,293:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:43:34,296:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:43:34,696:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:45:07,296:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:45:07,577:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:45:07,583:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:45:12,915:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:45:12,920:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:45:13,234:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:45:13,235:>>>>Get 2 Routes
+2020-10-10 19:45:13,237:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:45:13,621:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:45:13,630:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:45:14,006:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:46:09,236:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:46:09,524:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:46:09,528:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:46:14,885:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:46:14,897:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:46:15,182:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:46:15,185:>>>>Get 2 Routes
+2020-10-10 19:46:15,196:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:46:15,558:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:46:15,563:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:46:15,912:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:49:25,676:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:49:25,942:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:49:25,944:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:49:31,303:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:49:31,306:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:49:31,598:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:49:31,599:>>>>Get 2 Routes
+2020-10-10 19:49:31,606:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:49:32,022:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:49:32,033:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:49:32,395:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:51:03,046:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:51:03,316:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:51:03,321:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:51:08,687:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:51:08,690:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:51:08,979:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:51:08,980:>>>>Get 2 Routes
+2020-10-10 19:51:08,992:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:51:09,448:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:54:22,491:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:54:22,759:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 19:54:22,764:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:54:28,092:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 19:54:28,096:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:54:28,425:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 19:54:28,428:>>>>Get 2 Routes
+2020-10-10 19:54:28,435:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 19:54:28,794:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:03:20,602:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:03:20,874:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:03:20,882:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:03:26,270:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:03:26,275:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:03:26,605:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:03:26,608:>>>>Get 2 Routes
+2020-10-10 20:03:26,621:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:03:26,966:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:11:46,082:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:11:46,356:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:11:46,360:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:11:51,734:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:11:51,745:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:11:52,056:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:11:52,059:>>>>Get 2 Routes
+2020-10-10 20:11:52,070:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:11:52,449:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:13:12,172:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:13:12,437:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:13:12,442:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:13:17,772:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:13:17,777:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:13:18,069:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:13:18,072:>>>>Get 2 Routes
+2020-10-10 20:13:18,087:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:13:18,460:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:15:57,928:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:15:58,229:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:15:58,233:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:16:03,560:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:16:03,564:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:16:03,847:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:16:03,851:>>>>Get 2 Routes
+2020-10-10 20:16:03,859:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:16:04,276:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:23:55,477:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:23:55,764:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:23:55,768:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:24:01,124:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:24:01,131:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:24:01,433:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:24:01,434:>>>>Get 2 Routes
+2020-10-10 20:24:01,438:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:24:01,804:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:24:01,807:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:24:02,223:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:30:59,123:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:30:59,424:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:30:59,429:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:31:04,778:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:31:04,780:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:31:05,095:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:31:05,098:>>>>Get 2 Routes
+2020-10-10 20:31:05,101:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:31:05,507:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:32:06,402:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:32:06,674:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:32:06,676:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:32:12,121:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:32:12,126:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:32:12,450:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:32:12,453:>>>>Get 2 Routes
+2020-10-10 20:32:12,464:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:32:12,841:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:33:49,297:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:33:49,575:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:33:49,580:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:33:54,951:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:33:54,953:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:33:55,269:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:33:55,272:>>>>Get 2 Routes
+2020-10-10 20:33:55,277:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:33:55,666:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:33:55,675:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:33:56,155:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:34:23,961:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:34:24,239:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:34:24,244:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:34:29,598:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:34:29,602:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:34:29,897:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:34:29,900:>>>>Get 2 Routes
+2020-10-10 20:34:29,905:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:34:30,334:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:34:30,342:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:34:30,700:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:36:30,929:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:36:31,210:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:36:31,214:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:36:36,571:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:36:36,582:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:36:36,916:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:36:36,919:>>>>Get 2 Routes
+2020-10-10 20:36:36,933:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:36:37,290:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:37:50,676:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:37:50,950:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:37:50,955:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:37:56,286:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:37:56,291:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:37:56,586:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:37:56,589:>>>>Get 2 Routes
+2020-10-10 20:37:56,592:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:37:57,024:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:38:29,623:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:38:29,899:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:38:29,904:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:38:35,309:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:38:35,314:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:38:35,626:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:38:35,629:>>>>Get 2 Routes
+2020-10-10 20:38:35,644:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:38:36,013:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:39:26,253:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:39:26,533:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:39:26,538:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:39:31,878:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:39:31,881:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:39:32,257:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:39:32,258:>>>>Get 2 Routes
+2020-10-10 20:39:32,273:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:39:32,641:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:40:14,776:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:40:15,045:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:40:15,048:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:40:20,433:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:40:20,437:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:40:20,743:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:40:20,746:>>>>Get 2 Routes
+2020-10-10 20:40:20,755:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:40:21,133:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:42:15,001:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:42:15,294:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:42:15,299:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:42:20,635:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:42:20,639:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:42:20,958:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:42:20,959:>>>>Get 2 Routes
+2020-10-10 20:42:20,970:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:42:21,366:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:43:09,722:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:43:10,026:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:43:10,031:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:43:15,432:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:43:15,437:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:43:15,727:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:43:15,730:>>>>Get 2 Routes
+2020-10-10 20:43:15,739:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:43:16,119:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:43:57,402:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:43:57,683:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:43:57,689:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:03,034:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:44:03,036:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:03,367:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:44:03,371:>>>>Get 2 Routes
+2020-10-10 20:44:03,375:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:03,733:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:44:37,588:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:37,863:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:44:37,868:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:43,301:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:44:43,303:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:43,623:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:44:43,626:>>>>Get 2 Routes
+2020-10-10 20:44:43,630:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:44,075:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:44:44,080:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:44:44,447:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:46:06,227:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:46:06,507:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:46:06,512:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:46:11,845:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:46:11,848:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:46:12,218:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:46:12,221:>>>>Get 2 Routes
+2020-10-10 20:46:12,228:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:46:12,625:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:46:12,627:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:46:13,146:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:55:52,718:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:55:53,031:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:55:53,035:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:55:58,399:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:55:58,404:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:55:58,720:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:55:58,723:>>>>Get 2 Routes
+2020-10-10 20:55:58,728:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:55:59,131:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:55:59,143:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:55:59,514:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:57:23,145:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:57:23,433:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 20:57:23,438:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:57:28,805:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 20:57:28,810:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:57:29,107:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:57:29,110:>>>>Get 2 Routes
+2020-10-10 20:57:29,122:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:57:29,484:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 20:57:29,498:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 20:57:29,907:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:11:00,400:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:11:00,677:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:11:00,682:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:11:06,061:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:11:06,065:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:11:06,365:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:11:06,368:>>>>Get 2 Routes
+2020-10-10 21:11:06,372:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:11:06,762:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:11:06,768:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:11:07,147:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:13:35,599:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:35,895:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:13:35,900:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:41,230:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:13:41,234:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:41,533:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:13:41,536:>>>>Get 2 Routes
+2020-10-10 21:13:41,547:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:41,925:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:13:41,930:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:42,294:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:13:42,302:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:42,659:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:13:42,664:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:13:43,031:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:14:37,310:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:37,581:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:14:37,586:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:42,925:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:14:42,934:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:43,238:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:14:43,244:>>>>Get 2 Routes
+2020-10-10 21:14:43,252:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:43,612:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:14:43,618:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:44,028:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:14:44,037:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:44,445:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:14:44,451:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:14:44,848:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:22:45,435:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:45,714:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:22:45,718:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:51,094:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:22:51,098:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:51,435:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:22:51,438:>>>>Get 2 Routes
+2020-10-10 21:22:51,447:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:51,816:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:22:51,821:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:52,204:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:22:52,213:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:52,583:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:22:52,588:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:22:53,008:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:24:19,889:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:20,168:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:24:20,173:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:25,511:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:24:25,516:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:25,813:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:24:25,817:>>>>Get 2 Routes
+2020-10-10 21:24:25,825:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:26,256:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:24:26,261:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:26,622:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:24:26,626:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:27,020:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:24:27,029:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:24:27,382:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:24:59,969:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:00,248:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:25:00,253:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:05,616:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:25:05,621:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:05,909:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:05,912:>>>>Get 2 Routes
+2020-10-10 21:25:05,921:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:06,273:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:06,278:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:06,635:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:06,641:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:07,009:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:07,014:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:07,485:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:51,094:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:51,391:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:25:51,395:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:56,777:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:25:56,782:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:57,081:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:57,084:>>>>Get 2 Routes
+2020-10-10 21:25:57,103:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:57,475:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:57,479:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:57,879:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:57,889:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:58,242:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:25:58,252:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:25:58,641:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:29:25,543:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:25,823:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:29:25,828:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:31,243:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:29:31,248:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:31,531:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:29:31,534:>>>>Get 2 Routes
+2020-10-10 21:29:31,539:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:31,926:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:29:31,932:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:32,298:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:29:32,303:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:32,662:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:29:32,667:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:29:33,072:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:30:52,065:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:30:52,355:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:30:52,360:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:30:57,706:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:30:57,710:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:30:58,032:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:30:58,035:>>>>Get 2 Routes
+2020-10-10 21:30:58,051:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:30:58,510:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:30:58,519:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:30:58,885:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:32:41,101:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:32:41,398:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:32:41,403:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:32:46,799:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:32:46,802:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:32:47,141:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:32:47,143:>>>>Get 2 Routes
+2020-10-10 21:32:47,157:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:32:47,581:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:32:47,585:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:32:47,952:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:33:30,963:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:33:31,239:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:33:31,244:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:33:36,581:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:33:36,587:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:33:36,882:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:33:36,885:>>>>Get 2 Routes
+2020-10-10 21:33:36,892:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:33:37,276:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:33:37,281:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:33:37,641:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:37:54,718:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:37:55,015:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:37:55,020:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:38:00,391:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:38:00,399:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:38:00,739:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:38:00,742:>>>>Get 2 Routes
+2020-10-10 21:38:00,747:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:38:01,221:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:38:01,226:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:38:01,620:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:42:12,230:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:42:12,549:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:42:12,554:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:42:17,930:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:42:17,933:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:42:18,244:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:42:18,245:>>>>Get 2 Routes
+2020-10-10 21:42:18,259:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:42:18,642:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:42:18,645:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:42:19,069:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:43:31,652:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:43:47,026:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:43:47,033:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:43:52,404:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:43:52,420:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:43:52,711:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:43:52,714:>>>>Get 2 Routes
+2020-10-10 21:43:52,725:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:43:53,125:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:43:53,133:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:43:53,515:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:44:54,972:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:44:55,254:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:44:55,259:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:45:00,605:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:45:00,607:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:45:00,908:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:45:00,911:>>>>Get 2 Routes
+2020-10-10 21:45:00,921:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:45:01,274:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:45:01,279:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:45:01,647:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:46:19,176:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:46:19,483:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:46:19,488:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:46:24,841:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:46:24,844:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:46:25,151:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:46:25,154:>>>>Get 2 Routes
+2020-10-10 21:46:25,167:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:46:25,538:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:46:25,551:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:46:25,917:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:48:49,521:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:48:49,836:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:48:49,838:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:48:55,193:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:48:55,198:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:48:55,533:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:48:55,534:>>>>Get 2 Routes
+2020-10-10 21:48:55,537:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:48:55,913:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:48:55,922:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:48:56,414:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:50:21,183:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:50:21,552:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:50:21,557:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:50:26,906:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:50:26,912:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:50:27,553:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:50:27,556:>>>>Get 2 Routes
+2020-10-10 21:50:27,561:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:50:27,922:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:50:27,930:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:50:28,316:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:51:19,561:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:51:19,847:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:51:19,852:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:51:25,250:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:51:25,259:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:51:25,550:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:51:25,563:>>>>Get 2 Routes
+2020-10-10 21:51:25,577:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:51:26,088:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:51:26,096:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:51:26,458:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:53:26,905:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:53:27,578:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:53:27,583:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:53:32,938:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:53:32,943:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:53:33,252:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:53:33,253:>>>>Get 2 Routes
+2020-10-10 21:53:33,264:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:53:33,626:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:53:33,629:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:53:34,100:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:58:32,936:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:58:33,214:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:58:33,218:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:58:38,552:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:58:38,561:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:58:38,846:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:58:38,849:>>>>Get 2 Routes
+2020-10-10 21:58:38,860:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:58:39,233:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:58:39,240:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:58:39,632:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:59:43,682:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:59:43,964:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 21:59:43,968:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:59:49,355:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 21:59:49,366:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:59:49,688:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:59:49,692:>>>>Get 2 Routes
+2020-10-10 21:59:49,701:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:59:50,072:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 21:59:50,082:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 21:59:50,453:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:00:06,035:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:15,478:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:00:15,482:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:20,836:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:00:20,838:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:52,786:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:53,086:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:00:53,091:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:58,440:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:00:58,446:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:58,771:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:00:58,774:>>>>Get 2 Routes
+2020-10-10 22:00:58,785:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:00:59,219:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:00:59,229:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:01:00,612:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:05:22,970:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:23,790:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:05:23,795:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:29,177:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:05:29,182:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:29,501:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:05:29,504:>>>>Get 2 Routes
+2020-10-10 22:05:29,515:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:29,938:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:05:29,948:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:30,360:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:05:53,201:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:53,477:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:05:53,480:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:58,839:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:05:58,849:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:59,150:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:05:59,153:>>>>Get 2 Routes
+2020-10-10 22:05:59,160:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:59,524:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:05:59,534:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:05:59,914:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:07:07,252:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:07,760:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:07:07,764:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:13,509:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:07:13,515:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:13,809:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:07:13,810:>>>>Get 2 Routes
+2020-10-10 22:07:13,819:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:14,201:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:07:14,210:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:14,564:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:07:28,199:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:28,675:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:07:28,681:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:34,162:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:07:34,169:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:35,587:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:07:35,590:>>>>Get 2 Routes
+2020-10-10 22:07:35,599:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:36,304:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:07:36,314:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:07:36,722:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:08:02,982:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:08:03,266:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:08:03,271:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:08:08,638:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:08:08,648:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:08:08,959:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:08:08,962:>>>>Get 2 Routes
+2020-10-10 22:08:08,970:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:08:09,325:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:09:36,739:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:09:37,045:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:09:37,050:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:09:42,404:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:09:42,414:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:09:42,719:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:09:42,722:>>>>Get 2 Routes
+2020-10-10 22:09:42,734:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:09:43,121:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:15:35,056:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:15:36,369:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:15:36,373:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:15:41,726:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:15:41,729:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:15:42,112:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:15:42,115:>>>>Get 2 Routes
+2020-10-10 22:15:42,125:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:15:42,598:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:17:19,937:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:17:20,219:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:17:20,224:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:17:23,249:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:17:23,255:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:17:23,595:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:17:23,598:>>>>Get 2 Routes
+2020-10-10 22:17:23,605:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:17:23,973:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:17:23,985:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:17:24,363:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:19:00,246:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:19:00,552:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:19:00,562:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:19:05,925:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:19:05,932:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:19:06,229:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:19:06,235:>>>>Get 2 Routes
+2020-10-10 22:19:06,255:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:19:06,626:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:19:06,630:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:19:07,075:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:20:36,616:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:20:37,245:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:20:37,250:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:20:42,739:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:20:42,741:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:20:43,615:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:20:43,615:>>>>Get 2 Routes
+2020-10-10 22:20:43,618:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:20:44,202:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:20:44,213:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:20:44,664:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:20:44,675:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:20:45,171:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:21:37,980:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:21:38,261:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:21:38,266:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:21:43,602:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:21:43,604:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:21:43,934:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:21:43,935:>>>>Get 2 Routes
+2020-10-10 22:21:43,943:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:21:44,314:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:21:44,326:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:21:44,720:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:22:54,620:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:22:54,936:>>>>https://192.168.4.164:443 "POST /api-token-auth/ HTTP/1.1" 200 52
+2020-10-10 22:22:54,943:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:23:00,306:>>>>https://192.168.4.164:443 "PATCH /api/vpn/site-to-sites/2/restart HTTP/1.1" 200 0
+2020-10-10 22:23:00,318:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:23:00,758:>>>>https://192.168.4.164:443 "GET /api/config/static_routes?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:23:00,761:>>>>Get 2 Routes
+2020-10-10 22:23:00,768:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:23:01,322:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None
+2020-10-10 22:23:01,336:>>>>Starting new HTTPS connection (1): 192.168.4.164:443
+2020-10-10 22:23:01,740:>>>>https://192.168.4.164:443 "GET /api/vpn/site-to-sites?offset=0&limit=10&ordering=name&real=true HTTP/1.1" 200 None

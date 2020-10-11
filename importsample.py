@@ -1,3 +1,6 @@
+import json,requests
+
+from os import setxattr
 from requests import get
 import sys
 
@@ -53,5 +56,27 @@ print(User.User_key('ffd','fddf','fdf'))
 me = User('kjhg','so')
 print(me)
 
+import json
 
-print(me.key)
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+# use four indents to make it easier to read the result:
+print(json.dumps(x,indent=4))
+
+url = 'https://jsonplaceholder.typicode.com/users'
+response = requests.get(url,timeout= 5)
+response_json= response.json()
+print(type(response_json))
+f = open('demotest.txt','w')
+f.write(str(response_json[0]))

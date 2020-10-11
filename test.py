@@ -1,4 +1,6 @@
 import os
+from time import perf_counter
+from prettytable import PrettyTable
 from logging.handlers import RotatingFileHandler
 import json,time,platform,subprocess,logging,requests,urllib3
 from typing import Counter
@@ -39,6 +41,7 @@ if response_restart_tunnel.ok:
 
 
 
+
 def Get_Route(url_route, input_timeout=10):
     try:
         response_show_routeing_table = requests.get(url_route, headers={
@@ -54,7 +57,18 @@ def Get_Route(url_route, input_timeout=10):
         route_count = int(result_route_json['count'])
         out.write('\n')
         # print(result_route_json['results'])
+
+        table= PrettyTable()
+        table.field_names=['name','Destination_Ip','Destination_mask','Gatway','Name of Interface','Description']
+        
         for i in range(0, route_count):
+            table.add_row([result_route_json['results'][i]['name'],
+            result_route_json['results'][i]['destination_ip'],
+            result_route_json['results'][i]['destination_mask'],
+            result_route_json['results'][i]['gateway'],
+            result_route_json['results'][i]['interface']['name'],
+            result_route_json['results'][i]['description']
+            ])
             # print(result_route_json['results'][i]['interface']['mac'])
             out.write('Name : {}'.format(
                 result_route_json['results'][i]['name']))
@@ -93,6 +107,8 @@ def Get_Route(url_route, input_timeout=10):
                 result_route_json['results'][i]['description']))
             print(
                 '========================================================================================')
+        out.write('\n')
+        print(out.write(str(table)))
         return True
     except ConnectionError as error:
         print('Connection Not Found---->>>> {}'.format(error))
@@ -102,6 +118,173 @@ def Get_Route(url_route, input_timeout=10):
 url_route = api_urls['api_route']
 if not Get_Route(url_route):
     Get_Route(url_route, 20)
+
+
+
+
+def Get_site_t0_site(url_site_to_site, input_timeout=10):
+
+    try:
+        response_vpn_input = requests.get(url_site_to_site, headers={
+                                          'Authorization': 'Token '+token_json['token']}, verify=False, timeout=input_timeout)
+        response_vpn_input_json = response_vpn_input.json()
+        # print(response_vpn_input_json)
+        print('count of ipsec Tunnels: \t{}'.format(
+            response_vpn_input_json.get('count')))
+        tunnel_count = int(response_vpn_input_json.get('count'))
+        print(out.write('\n\n\n\n'))
+        print(out.write('site to site vpn'))
+        print(out.write('\n'))
+        table_ipsec=PrettyTable()
+        table_ipsec.field_names=['is_enable','Name ','Status','localNetwork','Local_id','remoteNetwork','Peer_Id','Local_Services','Remote_Services','Description']
+         
+        for i in range(tunnel_count):
+            len_local_network=len(response_vpn_input_json.get('results')[i].get('local_network')[0].get('value_list'))
+            # print('ggggggggggggggg{}'.format(response_vpn_input_json.get('results')[i].get('local_service_list')))
+            # print('vvvvvvvvvvvvvvvvvvvvvv',response_vpn_input_json.get('results')[1].get('local_network'))
+            table_ipsec.add_row([[response_vpn_input_json.get('results')[i].get('is_enabled')],
+            [response_vpn_input_json.get('results')[i].get('name')],
+            [response_vpn_input_json.get('results')[i].get('vpn_connection_status')]
+            ,[ip['value_list'] for ip in response_vpn_input_json.get('results')[i].get('local_network')],
+            [response_vpn_input_json.get('results')[i].get('local_id')],
+            [ip['value_list'] for ip in response_vpn_input_json.get('results')[i].get('remote_network')],
+            [response_vpn_input_json.get('results')[i].get('peer_id')],
+            [ip['protocol'] for ip in response_vpn_input_json.get('results')[i].get('local_service_list')],
+            
+            [ip['protocol'] for ip in response_vpn_input_json.get('results')[i].get('remote_service_list')],
+            response_vpn_input_json.get('results')[i].get('description')
+            ]
+            )
+    
+            print(i)
+            
+            print('Name of Ipsec tunnel:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('name')))
+            print('Is Enable:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('is_enabled')))
+            print('Local network:{}'.format(
+                response_vpn_input_json.get('results')[i].get('local_network')))
+            print('Remote network:{}'.format(
+                response_vpn_input_json.get('results')[i].get('remote_network')))
+            print('Local Service network:{}'.format(
+                response_vpn_input_json.get('results')[i].get('local_service_list')))
+            print('Remote Service network:{}'.format(
+                response_vpn_input_json.get('results')[i].get('remote_service_list')))
+            print('Local Id:{}'.format(
+                response_vpn_input_json.get('results')[i].get('local_id')))
+            print('Peer Id:{}'.format(
+                response_vpn_input_json.get('results')[i].get('peer_id')))
+            print('phase1_authentication_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase1_authentication_algorithm')))
+            print('phase2_authentication_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase2_authentication_algorithm')))
+            print('phase1_encryption_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase1_encryption_algorithm')))
+            print('phase2_encryption_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase2_encryption_algorithm')))
+            print('phase1_diffie_hellman_group:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase1_diffie_hellman_group')))
+            print('phase2_diffie_hellman_group:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase2_diffie_hellman_group')))
+            print('authentication_method:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('authentication_method')))
+            print('preshared_key:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('preshared_key')))
+            print('dead peer detection:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('dpd')))
+            print('On Demand:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('is_on_demand')))
+            print('Description:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('description')))
+            print('Status Vpn:\t{}'.format(response_vpn_input_json.get(
+                'results')[i].get('vpn_connection_status')))
+            print(
+                '=================================================================================')
+       
+        table_ipsec=table_ipsec.get_string(title='Ipsec Info')
+        print(out.write(str(table_ipsec)))
+        return True
+    except Exception as err:
+        return False
+        print(err)
+
+
+url_site_to_site = api_urls['api_site_to_site']
+if not Get_site_t0_site(url_site_to_site):
+    Get_site_t0_site(url_site_to_site, 20)
+
+
+
+
+
+# GET Encryption
+def Get_site_to_site_encryption(url_site_to_site,input_timeout=10):
+    try:
+        response_vpn_input = requests.get(url_site_to_site, headers={
+                                          'Authorization': 'Token '+token_json['token']}, verify=False, timeout=input_timeout)
+        response_vpn_input_json = response_vpn_input.json()
+        tunnel_count = int(response_vpn_input_json.get('count'))
+        # print(response_vpn_input_json)
+        print(out.write('\n\n\n\n'))
+        print(out.write('Site to Site Vpn_Encryption'))
+        print(out.write('\n'))
+        table_ipsec_enc=PrettyTable()
+        table_ipsec_enc.field_names=["Phase1_auth","Phase2_auth_algorithm",'phase1_encryption_algorithm','phase2_encryption_algorithm','phase1_diffie_hellman_group','phase2_diffie_hellman_group','authentication_method','preshred_key']
+        # table_ipsec_enc.add_row(['re','erere'])
+        # print(table_ipsec_enc)
+
+        for i in range(tunnel_count):
+            table_ipsec_enc.add_row([response_vpn_input_json.get('results')[i].get('phase1_authentication_algorithm'),
+            response_vpn_input_json.get('results')[i].get('phase2_authentication_algorithm'),
+            response_vpn_input_json.get('results')[i].get('phase1_encryption_algorithm'),
+            response_vpn_input_json.get('results')[i].get('phase2_encryption_algorithm'),
+            response_vpn_input_json.get('results')[i].get('phase1_diffie_hellman_group'),
+            response_vpn_input_json.get('results')[i].get('phase2_diffie_hellman_group'),
+            response_vpn_input_json.get('results')[i].get('authentication_method'),
+            response_vpn_input_json.get('results')[i].get('preshared_key')
+
+            ])
+            print('phase1_authentication_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase1_authentication_algorithm')))
+            print('phase2_authentication_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase2_authentication_algorithm')))
+            print('phase1_encryption_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase1_encryption_algorithm')))
+            print('phase2_encryption_algorithm:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase2_encryption_algorithm')))
+            print('phase1_diffie_hellman_group:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase1_diffie_hellman_group')))
+            print('phase2_diffie_hellman_group:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('phase2_diffie_hellman_group')))
+            print('authentication_method:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('authentication_method')))
+            print('preshared_key:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('preshared_key')))
+            print('dead peer detection:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('dpd')))
+            print('On Demand:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('is_on_demand')))
+            print('Description:\t{}'.format(
+                response_vpn_input_json.get('results')[i].get('description')))
+            print('Status Vpn:\t{}'.format(response_vpn_input_json.get(
+                'results')[i].get('vpn_connection_status')))
+            print(
+                '=================================================================================')
+       
+        table_ipsec_enc=table_ipsec_enc.get_string(title='Encryction Info')
+    
+        print(out.write(str(table_ipsec_enc)))
+    
+        return True
+
+    except Exception as err:
+        return False
+        print(err)
+
+url_site_to_site_enc = api_urls['api_site_to_site']
+if not Get_site_to_site_encryption(url_site_to_site_enc):
+    Get_site_to_site_encryption(url_site_to_site_enc, 20)
+
 
 
 
