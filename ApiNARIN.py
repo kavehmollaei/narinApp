@@ -304,9 +304,6 @@ if not Get_addresses_objects(urll_addresses):
     Get_addresses_objects(urll_addresses, 20)
 
 
-# TODO: add address objects in test.py
-
-
 '''
 # Get address objects
 url_objects_address = 'https://192.168.4.164/api/entity/addresses?offset=0&limit=10&ordering=name'

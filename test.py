@@ -56,20 +56,28 @@ def Get_Route(url_route, input_timeout=10):
 
         route_count = int(result_route_json['count'])
         out.write('\n')
-        # print(result_route_json['results'])
+        print(result_route_json['results'][0].get('interface'))
 
         table= PrettyTable()
         table.field_names=['name','Destination_Ip','Destination_mask','Gatway','Name of Interface','Description']
-        
+        print(table)
+
+        # print(result_route_json.get('results')[0].get('interface'))
         for i in range(0, route_count):
-            table.add_row([result_route_json['results'][i]['name'],
-            result_route_json['results'][i]['destination_ip'],
-            result_route_json['results'][i]['destination_mask'],
-            result_route_json['results'][i]['gateway'],
-            result_route_json['results'][i]['interface']['name'],
-            result_route_json['results'][i]['description']
-            ])
-            # print(result_route_json['results'][i]['interface']['mac'])
+            if result_route_json.get('results')[i].get('interface') is not None:
+                table.add_row([result_route_json['results'][i]['name'],
+                result_route_json['results'][i]['destination_ip'],
+                result_route_json['results'][i]['destination_mask'],
+                result_route_json['results'][i]['gateway'],
+                # result_route_json.get('results')[i].get('interface').get('name'),
+                result_route_json.get('results')[i].get('interface').get('name'),
+                result_route_json['results'][i]['description']]
+                )
+            else:
+                print('fffffffffffffffffffffff')
+
+                print('fdfdfd')    
+                # print(result_route_json['results'][i]['interface']['mac'])
             out.write('Name : {}'.format(
                 result_route_json['results'][i]['name']))
             out.write('\n')
