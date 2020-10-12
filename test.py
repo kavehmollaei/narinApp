@@ -75,8 +75,6 @@ def Get_Route(url_route, input_timeout=10):
                 )
             else:
                 print('ffffff')
-
-                print('fdfdfd')    
                 # print(result_route_json['results'][i]['interface']['mac'])
             out.write('Name : {}'.format(
                 result_route_json['results'][i]['name']))
