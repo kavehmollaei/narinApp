@@ -69,11 +69,17 @@ def Get_Route(url_route, input_timeout=10):
                 result_route_json['results'][i]['destination_ip'],
                 result_route_json['results'][i]['destination_mask'],
                 result_route_json['results'][i]['gateway'],
-                # result_route_json.get('results')[i].get('interface').get('name'),
                 result_route_json.get('results')[i].get('interface').get('name'),
                 result_route_json['results'][i]['description']]
                 )
             else:
+                table.add_row([result_route_json['results'][i]['name'],
+                result_route_json['results'][i]['destination_ip'],
+                result_route_json['results'][i]['destination_mask'],
+                result_route_json['results'][i]['gateway'],
+                result_route_json.get('results')[i].get('interface'),
+                result_route_json['results'][i]['description']]
+                )
                 print('ffffff')
                 # print(result_route_json['results'][i]['interface']['mac'])
             out.write('Name : {}'.format(
